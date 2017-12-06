@@ -20,7 +20,9 @@ public class Start {
 		folderVO.setFolderPath(Constants.inputFolderPath);
 		FileUtils.getPackageFolder(folderVO);
 		
+		//将子文件夹的文件生成pdf
 		multiFolder(folderVO);
+		//将本文件夹文件生成 pdf
 		oneFolder(folderVO);
 		System.out.println("运行结束");
 	}

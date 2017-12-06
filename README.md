@@ -1,2 +1,2 @@
 # imgToPdf
-package images to one or many pdf file, to make image looking easy on ipad. 
+package images to one or many pdf file to make images looking easy on ipad. 
